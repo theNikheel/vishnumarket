@@ -1,0 +1,14 @@
+.labelCls{
+    background-color: #f1c40f;border-color: #f1c40f;color: black;padding: 10px 24px;font-weight: bold;
+}
+
+.resAjaxCls{
+    font-size: 12px;
+    font-weight: bold;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}

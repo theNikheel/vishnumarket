@@ -1,0 +1,60 @@
+.labelCls{
+    background-color: #f1c40f;border-color: #f1c40f;color: black;padding: 10px 24px;font-weight: bold;
+}
+
+.nonEditBox{
+    pointer-events: none;
+    background: lightgrey;
+}
+
+.imgDiv{
+    height: 100px;
+    text-align: center;
+}
+.imgDiv img{
+    height: 95%;
+    border: 1px solid #ccc;
+    border-radius: 67px;
+    padding: 15px;
+}
+
+.currList{
+    margin-bottom: 9px;
+    padding: 10px 10px;
+    text-align: left;
+
+    border: 1px solid #ccc;
+    position:relative;
+}
+
+.whishlistCls{
+    left:10px;
+    font-size: 16px;
+    cursor: pointer;
+    position:absolute;
+    top:8px;
+}
+
+.currList p{
+    font-size: 13px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #00acc1;
+    margin-bottom: 0px;
+    
+}
+
+.currencyCode{
+    padding: 10px 0px 5px 0px;
+}
+.currencyRate{
+    padding: 0px;
+    float: right;
+}
+
+.lastUpdatedP{
+    font-weight: bold;
+}
+.lastUpdatedCls{
+    margin-left: 6px;
+}
