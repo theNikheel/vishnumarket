@@ -5,9 +5,9 @@ header("Access-Control-Allow-Origin: *");
 @session_start();
 //error_reporting(E_ERROR | E_WARNING | E_PARSE );
 error_reporting(0);
-$servername = 'localhost';
-$username = 'root';
-$password = '';
+$servername = '144.24.100.213';
+$username = 'admin';
+$password = 'password';
 $database = 'sharemarket';
 $_SESSION['limit']=50;
 
@@ -21,10 +21,10 @@ $current_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $url = $current_url;
 $urlParts = explode("/", $url);
 $folder=$urlParts[3];
-$redirectURL_admin = "http://$_SERVER[HTTP_HOST]/sharemarket/admin/";
+$redirectURL_admin = "http://$_SERVER[HTTP_HOST]/admin/";
 
 //$redirectURL_admin = "http://deitysoftware.in/PROJECTS/forex/admin";
-$redirectURL_user = "http://$_SERVER[HTTP_HOST]/sharemarket/";
+$redirectURL_user = "http://$_SERVER[HTTP_HOST]/";
 
 date_default_timezone_set('Asia/Kolkata');
 
@@ -63,4 +63,5 @@ include "functions.php";
 
 $WEBSITE_DATA_ARRAY = websiteDetailsFun();
 $WEBSITE_DETAIL_DATA = $WEBSITE_DATA_ARRAY['websiteDetailData'];
+print_r($WEBSITE_DETAIL_DATA);
 ?>
